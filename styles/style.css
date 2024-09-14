@@ -1,0 +1,52 @@
+/* Estilos generales */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #e0f7fa; /* Fondo azul claro */
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo del título principal */
+h1 {
+    font-size: 36px;
+    color: #00796b;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo del párrafo */
+p {
+    font-size: 20px;
+    color: #555555;
+    margin-bottom: 30px;
+}
+
+/* Estilo para los enlaces */
+a {
+    display: inline-block;
+    font-size: 18px;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px 15px;
+    padding: 15px 30px;
+    background-color: #00796b;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+    background-color: #004d40;
+    transform: translateY(-3px);
+}
+
+/* Estilo específico para el enlace de JSON */
+a[href="json.html"] {
+    background-color: #f57f17;
+}
+
+a[href="json.html"]:hover {
+    background-color: #e65100;
+}

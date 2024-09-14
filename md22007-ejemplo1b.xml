@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="./styles/md22007-ejemplo1b.css" ?>
+<!-- ejemplo1.xml  MD22007 -->
+<fichero>
+    <datos>Nery Mejia MD22007</datos>
+    <ficha id="1" fechaingreso="1/11/2012">
+      <nombre>Antonio</nombre>
+      <apellido>Barbero</apellido>
+      <direccion>Calle de Los Andes, 45</direccion>
+    </ficha>
+    <ficha id="2" fechaingreso="13/09/2024">
+      <nombre>Nery Antonio</nombre>
+      <apellido>Mejía Durán</apellido>
+      <carnet>md22007</carnet>
+      <telefono>6534 2356</telefono>
+      <carrera>Ing. de Sistemas Informáticos</carrera>
+    </ficha>
+    <ficha id="2" fechaingreso="11/09/2024">
+      <nombre>Juan Maria</nombre>
+      <apellido>Montero Aguilar</apellido>
+      <carnet>ma21008</carnet>
+      <telefono>7594 2746</telefono>
+      <carrera>Ing. de Sistemas Informáticos</carrera>
+      <dui id="dui01" fechaexpedicion="14/05/2022">Dui: 56763423-9</dui>
+      <iss id="ss01" tipo="nacional">Seguro social: 123456</iss>
+      <afp id="afp01" organisco="confia">AFP: 93572920</afp>
+    </ficha>
+    
+    <pregunta id="01">
+      ¿A partir del ejemplo 1 y ejercicios desarrollados hasta el momento que puede concluir?
+      <respuesta>
+        Puedo concluir que el xml es un lenguaje muy útil que permite la extensibilidad e incluso la
+        creación de nuevos de nuevos lenguajes personalizados, lo que podría tener mucha aplicabilidad en varios proyectos 
+      </respuesta>
+    </pregunta>
+    <a xmlns="http://www.w3.org/1999/xhtml" href="index.html">Inicio</a>
+</fichero>

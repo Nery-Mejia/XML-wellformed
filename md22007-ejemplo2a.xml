@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="./styles/md22007-ejemplo2a.css" ?>
+<!-- ejemplo2.xml  SUCARNET -->
+<pais nombre="El Salvador" moneda="US dollar" codtelefonico="503">
+  <datos>Nery Mejia MD22007</datos>
+  <departamento id="1" nombre="San Salvador">
+    <cabecera>San Salvador</cabecera>
+    <habitantes>1,700,000</habitantes>
+    <altura>545 MSNM</altura>
+  </departamento>
+  
+  <departamento id="2" nombre="Cabañas">
+    <cabecera>Sensuntepeque</cabecera>
+    <habitantes>165,000</habitantes>
+    <altura>720 MSNM</altura>
+  </departamento>
+  
+  <idioma tipo="oficial">Español</idioma>
+  <idioma tipo="autóctono">Nahuat</idioma>
+  <idioma tipo="segundo">Inglés</idioma>
+  <a xmlns="http://www.w3.org/1999/xhtml" href="index.html">Inicio</a>
+</pais>

@@ -1,0 +1,57 @@
+/* Estilos generales */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #e0f7fa; 
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 28px;
+    color: #00796b;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 22px;
+    color: #00796b;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 18px;
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+/* Estilo para los enlaces */
+a {
+    display: inline-block;
+    font-size: 18px;
+    color: #1e88e5;
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #f1f8e9; 
+    border: 1px solid #1e88e5;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #e0f2f1; 
+}
+
+/* Estilo para el enlace de "Inicio" */
+a[href="index.html"] {
+    background-color: #ffeb3b; 
+    color: #f57f17;
+    border: 1px solid #f57f17;
+    margin-top: 30px;
+}
+
+a[href="index.html"]:hover {
+    background-color: #fff9c4; 
+}
